@@ -1,0 +1,28 @@
+{
+  "name": "xe-currency-monitor",
+  "version": "0.0.1",
+  "description": "simple worker app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ahmed Garhy",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.6.0",
+    "amqplib": "^0.6.0",
+    "aws-sdk": "^2.788.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibmmq": "^0.9.15",
+    "iron_mq": "^0.9.3",
+    "iron_worker": "^0.1.8",
+    "node-cron": "^2.0.3",
+    "redis-message-queue": "^1.0.2",
+    "string_decoder": "^1.3.0",
+    "twilio": "^3.49.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

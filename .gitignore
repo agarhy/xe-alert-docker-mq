@@ -1,0 +1,4 @@
+node_modules
+.env
+iron.json
+key.json
